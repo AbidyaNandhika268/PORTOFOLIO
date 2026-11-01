@@ -1,0 +1,23 @@
+PORTFOLIO TEMAN — PETUNJUK
+
+Desain ini sengaja berbeda dari portofolio sebelumnya:
+- Gaya editorial/minimalis, warna krem, terracotta, lilac, kuning, dan hijau mint.
+- Tipografi serif + sans-serif, ilustrasi kartu tugas, dan layout berbeda.
+- Responsif untuk desktop dan HP.
+
+CARA EDIT
+1. Buka index.html di VS Code.
+2. Ganti [Friend’s Name] dan [Your Friend’s Name] dengan nama teman.
+3. Ganti judul/deskripsi tugas sesuai tugas sebenarnya.
+4. Ganti tautan https://drive.google.com/ dengan tautan Google Drive tugas.
+5. Ganti your-email@example.com dengan email teman.
+6. Simpan file (Ctrl+S).
+
+CARA UPLOAD KE NETLIFY
+1. Ekstrak ZIP ini.
+2. Masuk ke Netlify.
+3. Buat site baru atau buka bagian deploy manual untuk site yang sudah ada.
+4. Unggah folder yang berisi index.html, style.css, dan script.js.
+5. Buka URL yang diberikan Netlify untuk mengecek hasilnya.
+
+Catatan: Nama, konten, dan tautan tugas masih berupa contoh. Ganti sebelum dikumpulkan.

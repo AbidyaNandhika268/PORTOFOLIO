@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Portofolio Abidya Nandhika, mahasiswa Informatika dengan minat pada data mining dan pemrograman."
+    >
+    <meta name="theme-color" content="#f5f7f4">
+    <title>Portofolio — Abidya Nandhika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#tentang" aria-label="Portofolio, slide tentang saya">
+          <span class="brand-symbol" aria-hidden="true">▦</span>
+          <span>abidya<span>.dev</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Buka navigasi"
+          aria-controls="slideNav"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="slide-nav" id="slideNav" aria-label="Navigasi slide">
+          <a href="#tentang" data-slide-link="0" aria-current="page">Tentang</a>
+          <a href="#keahlian" data-slide-link="1">Keahlian</a>
+          <a href="#pendidikan" data-slide-link="2">Pendidikan</a>
+          <a href="#tugas" data-slide-link="3">Tugas</a>
+          <a href="#refleksi" data-slide-link="4">Refleksi</a>
+          <a href="#kontak" data-slide-link="5">Kontak</a>
+        </nav>
+      </header>
+
+      <main class="slide-stage" id="slideStage" aria-live="polite">
+        <section class="slide slide-about is-active" id="tentang" aria-labelledby="aboutTitle">
+          <div class="slide-copy">
+            <p class="eyebrow"><span></span> PORTOFOLIO INFORMATIKA <b>·</b> 2026</p>
+            <p class="slide-kicker">01 / TENTANG SAYA</p>
+            <h1 id="aboutTitle">Halo, saya<br><em>Abidya Nandhika.</em></h1>
+            <p class="slide-description">
+              Saya adalah Mahasiswa Informatika Universitas Ahmad Dahlan yang tertarik
+              pada data mining, analisis data, dan pengembangan aplikasi.
+              mari kita berkenalan lebih dalam.
+            </p>
+            <div class="slide-meta">
+              <span class="status-dot"></span>
+              Yogyakarta, Indonesia
+            </div>
+          </div>
+          <img
+            class="profile-photo"
+            src="./WhatsApp%20Image%202026-11-01%20at%2019.25.45.jpeg"
+            alt="Foto profil Abidya Nandhika"
+          >
+        </section>
+
+        <section class="slide slide-skills" id="keahlian" aria-labelledby="skillsTitle" hidden>
+          <div class="slide-heading">
+            <p class="slide-kicker">02 / KEAHLIAN</p>
+            <h2 id="skillsTitle">Teknologi Di<br><em>Era Digitalisasi.</em></h2>
+            <p class="slide-description">
+              Berikut adalah beberapa bahasa dan tools yang saya pelajari untuk membangun
+              program serta mengolah data.
+            </p>
+          </div>
+          <div class="skills-content">
+            <div class="skill-panel">
+              <span class="panel-label">BAHASA PEMROGRAMAN</span>
+              <div class="skill-list">
+                <span><i class="skill-dot python"></i>Python</span>
+                <span><i class="skill-dot java"></i>Java</span>
+                <span><i class="skill-dot javascript"></i>JavaScript</span>
+                <span><i class="skill-dot cpp"></i>C++</span>
+                <span><i class="skill-dot sql"></i>SQL</span>
+              </div>
+            </div>
+            <div class="skill-panel">
+              <span class="panel-label">DATA &amp; TOOLS</span>
+              <div class="skill-list">
+                <span>Pandas</span>
+                <span>Scikit-learn</span>
+                <span>MySQL</span>
+                <span>Git</span>
+                <span>HTML &amp; CSS</span>
+              </div>
+            </div>
+            <div class="interest-card">
+              <span class="interest-icon" aria-hidden="true">⌘</span>
+              <div>
+                <span class="panel-label">BIDANG YANG SAYA MINATI</span>
+                <p>Data mining <i>·</i> machine learning <i>·</i> pengembangan aplikasi</p>
+              </div>
+            </div>
+          
+          </div>
+        </section>
+
+        <section class="slide slide-education" id="pendidikan" aria-labelledby="educationTitle" hidden>
+          <div class="slide-heading">
+            <p class="slide-kicker">03 / PENDIDIKAN</p>
+            <h2 id="educationTitle">Belajar, bertumbuh,<br><em>terus berkembang.</em></h2>
+            <p class="slide-description">
+              Perjalanan akademik saya membangun dasar untuk memahami
+              komputasi, pemrograman, dan pengolahan data.
+            </p>
+          </div>
+          <div class="education-content">
+            <div class="education-mark" aria-hidden="true"><span>.</span></div>
+            <div class="education-details">
+              <span class="panel-label">RIWAYAT PENDIDIKAN</span>
+              <div class="education-entry">
+                <h3>SMA Negeri 2 Kalianda</h3>
+                <p class="education-major">Ilmu Pengetahuan Alam</p>
+                <div class="education-meta">
+                  <span><i>⌖</i> Lampung, Indonesia</span>
+                  <span><i>◷</i> 2020 — 2023</span>
+                </div>
+              </div>
+              <div class="education-entry">
+                <h3>Universitas Ahmad Dahlan</h3>
+                <p class="education-major">Program Studi Informatika</p>
+                <div class="education-meta">
+                  <span><i>⌖</i> Yogyakarta, Indonesia</span>
+                  <span><i>◷</i> 2023 — sekarang</span>
+                </div>
+              </div>
+              <div class="education-topics">
+                <span>Algoritma</span>
+                <span>Basis data</span>
+                <span>Data mining</span>
+                <span>Rekayasa perangkat lunak</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="slide slide-assignments" id="tugas" aria-labelledby="assignmentsTitle" hidden>
+          <div class="slide-heading">
+            <p class="slide-kicker">04 / PENGUMPULAN TUGAS</p>
+            <h2 id="assignmentsTitle">Catatan proses<br><em>belajar saya.</em></h2>
+            <p class="slide-description">
+              Kumpulan tugas dan latihan.
+            </p>
+          </div>
+          <div class="assignment-content">
+            <article class="assignment-card">
+              <span class="assignment-number">01</span>
+              <div class="assignment-details">
+                <span class="assignment-type">BAHASA INGGRIS PROFESIONAL</span>
+                <h3>PERTEMUAN 1</h3>
+              </div>
+              <a class="assignment-link" href="https://drive.google.com/drive/folders/1kR0o9wOya8jQjfl4k1RZau5Jg6hgGt4d" target="_blank" rel="noopener noreferrer">Buka tugas <span>↗</span></a>
+            </article>
+            <article class="assignment-card">
+              <span class="assignment-number">02</span>
+              <div class="assignment-details">
+                <span class="assignment-type">BAHASA INGGRIS PROFESIONAL</span>
+                <h3>PERTEMUAN 2</h3>
+              </div>
+              <a class="assignment-link" href="https://drive.google.com/drive/folders/1kR0o9wOya8jQjfl4k1RZau5Jg6hgGt4d" target="_blank" rel="noopener noreferrer">Buka tugas <span>↗</span></a>
+            </article>
+            <article class="assignment-card">
+              <span class="assignment-number">03</span>
+              <div class="assignment-details">
+                <span class="assignment-type">BAHASA INGGRIS PROFESIONAL</span>
+                <h3>PERTEMUAN 3 </h3>
+               
+              </div>
+              <a class="assignment-link" href="https://drive.google.com/drive/folders/1kR0o9wOya8jQjfl4k1RZau5Jg6hgGt4d" target="_blank" rel="noopener noreferrer">Buka tugas <span>↗</span></a>
+            </article>
+            <article class="assignment-card">
+              <span class="assignment-number">04</span>
+              <div class="assignment-details">
+                <span class="assignment-type">BAHASA INGGRIS PROFESIONAL</span>
+                <h3>PERTEMUAN 4 </h3>
+                
+              </div>
+              <a class="assignment-link" href="https://drive.google.com/drive/folders/1kR0o9wOya8jQjfl4k1RZau5Jg6hgGt4d" target="_blank" rel="noopener noreferrer">Buka tugas <span>↗</span></a>
+            </article>
+            <article class="assignment-card">
+              <span class="assignment-number">05</span>
+              <div class="assignment-details">
+                <span class="assignment-type">BAHASA INGGRIS PROFESIONAL</span>
+                <h3>PERTEMUAN 5</h3>
+               
+              </div>
+              <a class="assignment-link" href="https://drive.google.com/drive/folders/1kR0o9wOya8jQjfl4k1RZau5Jg6hgGt4d" target="_blank" rel="noopener noreferrer">Buka tugas <span>↗</span></a>
+            </article>
+            
+        </section>
+
+        <section class="slide slide-reflection" id="refleksi" aria-labelledby="reflectionTitle" hidden>
+          <div class="reflection-mark" aria-hidden="true">“</div>
+          <div class="reflection-copy">
+            <p class="slide-kicker">05 / REFLEKSI</p>
+            <h2 id="reflectionTitle">Teknologi berkembang.<br><em>Saya juga.</em></h2>
+            <p class="reflection-text">
+              Selama belajar Informatika, saya menyadari bahwa memahami konsep
+              membutuhkan rasa ingin tahu, latihan, dan kesediaan untuk mencoba
+              kembali. Setiap kesalahan membantu saya melihat masalah dari
+              sudut pandang baru.
+            </p>
+            <p class="reflection-text">
+              Ke depan, saya ingin memperdalam data mining dan machine learning,
+              meningkatkan kemampuan pemrograman, serta membangun rasa untuk menemukan solusi.
+            </p>
+            <div class="reflection-signature">Terus belajar, selangkah demi selangkah. <span>✳</span></div>
+          </div>
+          <div class="reflection-side" aria-hidden="true">
+            <span>01</span><i></i><span>∞</span>
+          </div>
+        </section>
+
+        <section class="slide slide-contact" id="kontak" aria-labelledby="contactTitle" hidden>
+          <div class="contact-copy">
+            <p class="slide-kicker">06 / KONTAK</p>
+            <h2 id="contactTitle">Mari bertukar<br><em>ide.</em></h2>
+            <p class="slide-description">
+              Tertarik berdiskusi tentang Informatika, data mining,
+              pemrograman, atau peluang kolaborasi? Saya senang terhubung dan saling berkomunikasi.
+            </p>
+            <a class="button button-light" href="abidyanandika3112@gmail.com">
+              Kirim email <span>↗</span>
+            </a>
+          
+          </div>
+          <div class="contact-card">
+            <span class="panel-label">TEMUKAN SAYA</span>
+            <a href="abidyanandika3112@gmail.com"><span class="contact-icon">✉</span><span>Email<strong>abidyanandhika3112@gmail.com</strong></span><i>↗</i></a>
+            <a href="https://Instagram.com/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌘</span><span>Instagram<strong>Instagram.com/@abidyanandhka</strong></span><i>↗</i></a>
+            
+          
+          </div>
+        </section>
+      </main>
+
+      <footer class="slide-controls" aria-label="Kontrol presentasi">
+        <button class="arrow-button" id="previousSlide" type="button" aria-label="Slide sebelumnya">
+          <span aria-hidden="true">←</span>
+        </button>
+        <div class="slide-progress">
+          <div class="slide-dots" role="group" aria-label="Pilih slide">
+            <button type="button" data-slide-to="0" aria-label="Slide 1: Tentang Saya" aria-current="step"></button>
+            <button type="button" data-slide-to="1" aria-label="Slide 2: Keahlian"></button>
+            <button type="button" data-slide-to="2" aria-label="Slide 3: Pendidikan"></button>
+            <button type="button" data-slide-to="3" aria-label="Slide 4: Pengumpulan Tugas"></button>
+            <button type="button" data-slide-to="4" aria-label="Slide 5: Refleksi"></button>
+            <button type="button" data-slide-to="5" aria-label="Slide 6: Kontak"></button>
+          </div>
+          <span class="slide-count" id="slideCount" aria-live="polite">01 / 06</span>
+        </div>
+        <button class="arrow-button" id="nextSlide" type="button" aria-label="Slide berikutnya">
+          <span aria-hidden="true">→</span>
+        </button>
+        <span class="keyboard-hint">Gunakan tombol ← → untuk berpindah</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
